@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'About Us',
+  description: 'My Tienda by Next.js',
+  keywords: "tienda, online, ecomerce",
+}
+
 function AboutPage(){
     return(
         <>

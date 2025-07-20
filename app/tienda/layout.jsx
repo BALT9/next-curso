@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: 'Tienda Amiga',
+  description: 'My Tienda by Next.js',
+  keywords: "tienda, online, ecomerce",
+}
+
 function TiendaLayout({ children }) {
     return (
         <>
