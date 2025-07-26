@@ -10,6 +10,7 @@ export default function Nav() {
                     <li><Link href="/about">Sobre Nosotros</Link></li>
                     <li><Link href="/tienda">Tienda</Link></li>
                     <li><Link href="/tienda/categoria">categoria</Link></li>
+                    <li><Link href="/posts">posts</Link></li>
                 </ol>
             </nav>
         </>
