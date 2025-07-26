@@ -1,5 +1,6 @@
 import Nav from "../components/Nav";
 import { Roboto } from 'next/font/google'; // ✅ CORRECTO
+import "./global.css"
 
 // metadata 
 export const metadata = {

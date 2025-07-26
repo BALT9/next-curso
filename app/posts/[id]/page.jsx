@@ -19,7 +19,7 @@ export default async function Page({ params }) {
     return (
         <>
             {/* <h1>page: {id}</h1> */}
-            <h1>{post.id}. {post.title}</h1>
+            <h1 className="font-bold" >{post.id}. {post.title}</h1>
             <p>{post.body}</p>
         </>
     );
