@@ -1,4 +1,4 @@
-import Nav from "../components/Nav";
+import Nav from "../src/components/Nav";
 import { Roboto } from 'next/font/google'; // ✅ CORRECTO
 import "./global.css"
 

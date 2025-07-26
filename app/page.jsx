@@ -6,7 +6,7 @@ export const metadata = {
   keywords: "tienda, online, ecomerce",
 }
 
-import User from "@/components/User";
+import User from "@/src/components/User";
 // import { useState } from "react";
 
 // componente servidor 
