@@ -1,6 +1,6 @@
-import Nav from "../src/components/Nav";
+import Nav from '../componentes/Nav';
 import { Roboto } from 'next/font/google'; // ✅ CORRECTO
-import "./global.css"
+import "./global.css";
 
 // metadata 
 export const metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <Nav />
+        {/* <Nav></Nav> */}
         {children}
       </body>
     </html>
